@@ -1,0 +1,23 @@
+{
+  "name": "quantorihomework",
+  "version": "1.0.0",
+  "description": "npm init -y \r npm init wdio // установка wdio",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.15.6",
+    "@wdio/local-runner": "^8.15.6",
+    "@wdio/mocha-framework": "^8.15.6",
+    "@wdio/spec-reporter": "^8.15.6",
+    "chromedriver": "^116.0.0"
+  }
+}
