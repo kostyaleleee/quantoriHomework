@@ -26,7 +26,6 @@ describe ('Pre-conditions', () => {
         await $('//*[@id="ctl00_MainContent_fmwOrder_TextBox1"]').setValue("12/24"); // Expiration Number
         await $('//*[@id="ctl00_MainContent_fmwOrder_InsertButton"]').click(); // Process button
         await $('//*[@id="ctl00_menu"]/li[1]/a').click(); // clicking the "View all orders" tab
-        await $('//*[@id="ctl00_MainContent_orderGrid"]/tbody/tr[2]/td[2]').getValue();
         await new Promise(resolve => setTimeout(resolve, 5000));
         });
     });
